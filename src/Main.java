@@ -14,7 +14,7 @@ public class Main {
 
             Callable callable = new MyCallable();
             final String tempLine = line;
-            Thread t =  Thread.currentThread().getName() + "-" + tempLine.split(" ").length);
+//            Thread t =  Thread.currentThread().getName() + "-" + tempLine.split(" ").length)
 
                 try {
                     Thread.sleep(2000);
@@ -22,8 +22,7 @@ public class Main {
                     throw new RuntimeException(e);
                 }
 
-            });
+            };
 
-        }
     }
 }
